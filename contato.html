@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Website Design Example</title>
+        <link href="website-design-example-css.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+            <header>
+                <div>HEADER</div>
+            </header>
+            <nav>
+                    <ul class="menu">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="https://theproaudiofiles.com/synthesis-101-envelope-parameters-uses/">ABOUT</a>
+                            <ul class="dropdown">
+                                <li><a href="#">OVERVIEW</a></li>
+                                <li><a href="#">THE TEAM</a></li>
+                                <li><a href="#">OUR MISSION</a></li>
+                                <li><a href="http://everynoise.com/engenremap.html">JOBS</a></li>             
+                            </ul>
+                        </li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="contato.html">CONTACT</a></li>
+                    </ul>
+            </nav>
+            <section>
+                <div class="form__group field">
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="name" class="form__label">Nome:</label>
+                            </td>
+                            <td>
+                                <input type="text" class="form__field" placeholder="Nome" name="nome" id='name'/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email" class="form__label">E-mail:</label>
+                            </td>
+                            <td>
+                                <input type="email" class="form__field" placeholder="email@email.com" name="email" id='email'/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span style="text-align: left;">Sexo:</span>
+                            </td>
+                            <td>
+                                <input type="radio" name="sexo">Feminino <input type="radio" name="sexo">Masculino
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="text" class="form__label">Mensagem:</label></td>
+                            <td><textarea rows="10" cols="40" maxlength="500" placeholder="Deixe sua mensagem." id="text"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit" value="Enviar">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <footer>
+                    <p>FOOTER <br>(typically the less important stuff)</p> 
+            </footer>
+    </body>
+</html>
